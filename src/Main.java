@@ -7,6 +7,7 @@ public class Main {
             deadSouls.setDatePublication(1841);
             System.out.println("one book - "+deadSouls.getDatePublication());
 
+
             Book catcherInTheRye=new Book("The catcher in the rye",new Author("Jeromed"," Salinger"),1951);
             System.out.println("two book - "+ catcherInTheRye.getTitle());
             System.out.println("two book - "+catcherInTheRye.getAuthor());
